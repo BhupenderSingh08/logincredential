@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "/home/bhupender/Desktop/angular/task1/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "/home/bhupender/Desktop/angular/task1/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -66,12 +69,15 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          
+          
           "configurations": {
             "production": {
               "browserTarget": "task1:build:production"
             },
             "development": {
               "browserTarget": "task1:build:development"
+              
             }
           },
           "defaultConfiguration": "development"
